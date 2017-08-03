@@ -1,3 +1,19 @@
+main {
+  height: 100vh;
+
+  .home-bg {
+    height: 100%;
+
+    img {
+      position: relative;
+      bottom: -20%;
+      display: block;
+      height: 80%;
+      margin: auto;
+    }
+  }
+}
+
 h2 {
   color: red;
 }
