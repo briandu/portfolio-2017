@@ -1,7 +1,12 @@
 & {
+  position: absolute;
+  bottom: 60px;
+  left: 70px;
+
   i {
     display: block;
   }
+
   i:nth-child(2) {
     padding: 50px 0;
   }
