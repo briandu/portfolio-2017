@@ -4,10 +4,10 @@ section {
   height: 100%;
 
   .project-container {
-    height: 69%;
     position: absolute;
     top: 30%;
     left: 23%;
+    height: 69%;
 
     .project-type-tab {
       position: absolute;
@@ -33,10 +33,16 @@ section {
 
         .project-title {
           padding-bottom: 50px;
+          opacity: .3;
+          transition: opacity .3s;
 
           h4 {
             padding-top: 6px;
           }
+        }
+
+        .project-title:hover {
+          opacity: 1;
         }
       }
     }
