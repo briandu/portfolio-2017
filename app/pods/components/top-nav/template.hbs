@@ -1,9 +1,9 @@
 <nav>
   <img src="assets/images/logo-brian.svg">
   <ul>
-    <li><a href="">HOME</a></li>
-    <li><a href="">PROJECTS</a></li>
-    <li><a href="">ABOUT</a></li>
+    <li>{{#link-to "home" }}HOME{{/link-to}}</li>
+    <li>{{#link-to "projects" }}PROJECTS{{/link-to}}</li>
+    <li>{{#link-to "about" }}ABOUT{{/link-to}}</li>
   </ul>
   {{get-in-touch}}
 </nav>
