@@ -12,6 +12,7 @@
 
 // General
 @import 'base/button';
+@import 'base/typography';
 
 // ================================================================================
 // ================================ PRIVATE STYLES  ===============================
@@ -22,3 +23,6 @@
 
 // Pages
 @import 'pages/home';
+@import 'pages/projects';
+@import 'pages/about';
+@import 'pages/contact';
