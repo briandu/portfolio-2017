@@ -27,7 +27,27 @@
         letter-spacing: 1px;
 
         a {
+          position: relative;
           text-decoration: none;
+        }
+
+        a::before {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: $color-black;
+          opacity: 0;
+          transition-duration: .2s;
+          transition-property: -webkit-transform, opacity;
+          transform: translateY(8px);
+        }
+
+        a:hover::before {
+          opacity: 1;
+          transform: translateY(0);
         }
       }
 
