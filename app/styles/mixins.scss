@@ -11,6 +11,14 @@
   transform: translateY(-50%) translateX(-50%);
 }
 
+@mixin hover-button-black {
+  &:hover {
+    @include hover-animation;
+    background-color: $color-black;
+    color: $color-white;
+  }
+}
+
 @mixin hover-animation {
   transition: .2s ease-in;
 }

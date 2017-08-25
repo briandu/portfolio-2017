@@ -8,13 +8,8 @@ button,
   letter-spacing: 1px;
 
   &.black {
+    @include hover-button-black;
     border: 1px solid $color-black;
     border-radius: 4px;
-
-    &:hover {
-      @include hover-animation;
-      background-color: $color-black;
-      color: $color-white;
-    }
   }
 }
