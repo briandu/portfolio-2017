@@ -16,13 +16,20 @@
       width: 30px;
     }
 
+    span {
+      position: absolute;
+      left: 120px;
+      letter-spacing: 5px;
+      // font-weight: 400;
+    }
+
     ul {
       padding-left: 0;
       margin: 0;
       list-style-type: none;
 
       li {
-        font-size: 14px;
+        font-size: 12px;
         display: inline-block;
         padding: 0 25px;
         letter-spacing: 1px;
@@ -39,6 +46,7 @@
           left: 0;
           width: 100%;
           height: 2px;
+          margin-top: 6px;
           background-color: $color-black;
           opacity: 0;
           transition-duration: .2s;
