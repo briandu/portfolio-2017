@@ -39,11 +39,12 @@ section {
           h4 {
             padding-top: 6px;
           }
+
+          &:hover {
+            opacity: 1;
+          }
         }
 
-        .project-title:hover {
-          opacity: 1;
-        }
       }
     }
   }
