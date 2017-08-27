@@ -1,6 +1,10 @@
 <nav>
-  <img src="assets/images/logo-brian.svg">
-  <span>BRIAN DU</span>
+  {{#link-to "home"}}
+    <img src="assets/images/logo-brian.svg">
+  {{/link-to}}
+  {{#link-to "home"}}
+    <span>BRIAN DU</span>
+  {{/link-to}}
   <ul>
     <li>{{#link-to "home" }}HOME{{/link-to}}</li>
     <li>{{#link-to "projects" }}PROJECTS{{/link-to}}</li>

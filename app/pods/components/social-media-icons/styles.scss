@@ -4,7 +4,7 @@
   bottom: 60px;
   left: 70px;
 
-  i {
+  a {
     @include flex-center;
     @include hover-button-black;
     width: 40px;
@@ -14,7 +14,7 @@
     cursor: pointer;
   }
 
-  i:nth-child(2) {
-    margin: 12px 0;
+  a:nth-child(2) {
+    margin: 10px 0;
   }
 }
