@@ -28,6 +28,10 @@
       }
     }
 
+    > a:last-child {
+      position: absolute;
+      right: 70px;
+    }
 
     ul {
       padding-left: 0;
